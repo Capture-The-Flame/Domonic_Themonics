@@ -20,7 +20,7 @@ const EmbeddedDiv = ({activeTheme, onThemeChange, themes}) =>{
                 const p = document.createElement("p");
                 if(i>600 && i<900 && activeTheme=="Scary"){
                     if(i==746){
-                        p.textContent="flame{D00MI$C0MING}";
+                        p.textContent="flame{DO0MI$C0MING}";
                         p.setAttribute("class","flag");
                         p.setAttribute("id","flag");
                     }
